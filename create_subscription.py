@@ -20,7 +20,7 @@ from common import (  # type: ignore
 )
 @click.argument("topic")
 @click.argument("subscription")
-def main(project: str, endpoint: str, topic: str, subscription: str):
+def main(project: str, endpoint: str, topic: str, subscription: str) -> None:
     # Create PubSub clients
     publisher_client = get_publisher_client(endpoint)
     subscriber_client = get_subscriber_client(endpoint)

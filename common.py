@@ -13,7 +13,10 @@ def get_publisher_client(endpoint: str) -> PublisherClient:
     transport = PublisherGrpcTransport(
         channel=grpc_channel, credentials=AnonymousCredentials()
     )
-    publisher = PublisherClient(transport=transport)
+    publisher = PublisherClient(
+        transport=transport,
+        client_options={"api_endpoint": endpoint},
+    )
 
     return publisher
 
@@ -23,6 +26,9 @@ def get_subscriber_client(endpoint: str) -> SubscriberClient:
     transport = SubscriberGrpcTransport(
         channel=grpc_channel, credentials=AnonymousCredentials()
     )
-    subscriber = SubscriberClient(transport=transport)
+    subscriber = SubscriberClient(
+        transport=transport,
+        client_options={"api_endpoint": endpoint},
+    )
 
     return subscriber
