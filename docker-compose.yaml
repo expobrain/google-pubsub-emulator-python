@@ -1,0 +1,15 @@
+version: "2.3"
+
+services:
+  # ----------------------
+  # PubSub
+  # ----------------------
+
+  pubsub_emulator:
+    image: pubsub_emulator
+    build:
+      context: .
+    ports:
+      - "8085:8085"
+    command: |
+      gcloud beta emulators pubsub start --project=my-test --host-port=0.0.0.0:8085
