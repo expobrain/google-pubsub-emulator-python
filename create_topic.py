@@ -8,9 +8,7 @@ from common import (  # type: ignore
 
 @click.command()
 @click.option(
-    "--project",
-    default="bulb-smart-energy-local",
-    help="Project where PubSub is running",
+    "--project", default="my-test-project", help="Project where PubSub is running"
 )
 @click.option(
     "--endpoint",

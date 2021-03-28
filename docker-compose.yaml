@@ -12,4 +12,4 @@ services:
     ports:
       - "8085:8085"
     command: |
-      gcloud beta emulators pubsub start --project=my-test --host-port=0.0.0.0:8085
+      gcloud beta emulators pubsub start --project=my-test-project --host-port=0.0.0.0:8085
