@@ -5,12 +5,12 @@ description = ""
 authors = ["Daniele Esposti <daniele.esposti@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-click = "^7.1.2"
-google-api-core = "^1.26.1"
-google-auth = "^1.28.0"
-google-cloud-pubsub = "^2.4.0"
-grpcio = "^1.36.1"
+python = "~3.8"
+click = "~7.1.2"
+google-api-core = "~1.26.1"
+google-auth = "~1.28.0"
+google-cloud-pubsub = "~2.3"
+grpcio = "~1.36.1"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.812"
