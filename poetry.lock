@@ -181,15 +181,16 @@ reauth = ["pyu2f (>=0.1.5)"]
 
 [[package]]
 name = "google-cloud-pubsub"
-version = "2.3.0"
+version = "2.9.0"
 description = "Google Cloud Pub/Sub API client library"
 category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-google-api-core = {version = ">=1.22.2,<2.0.0dev", extras = ["grpc"]}
+google-api-core = {version = ">=1.28.0,<3.0.0dev", extras = ["grpc"]}
 grpc-google-iam-v1 = ">=0.12.3,<0.13dev"
+grpcio = ">=1.38.1,<2.0dev"
 libcst = ">=0.3.10"
 proto-plus = ">=1.7.1"
 
@@ -729,7 +730,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "a9178a05a7773f573c7056350a0d57b9fe48df5e83f0d87fe7758a6c20de588d"
+content-hash = "580d609ed4cda8e828dca36d5d2e55a3ccad345e1a639bc6e27a36568a3f44a1"
 
 [metadata.files]
 appnope = [
@@ -792,8 +793,8 @@ google-auth = [
     {file = "google_auth-1.35.0-py2.py3-none-any.whl", hash = "sha256:997516b42ecb5b63e8d80f5632c1a61dddf41d2a4c2748057837e06e00014258"},
 ]
 google-cloud-pubsub = [
-    {file = "google-cloud-pubsub-2.3.0.tar.gz", hash = "sha256:b19f0556c252b805a52c976e3317c53d91e36f56dc8d28192eea190627faf343"},
-    {file = "google_cloud_pubsub-2.3.0-py2.py3-none-any.whl", hash = "sha256:77837aa37099e8bfefd836eaa5b8a042edbcd166677515b34bbe112e558d1932"},
+    {file = "google-cloud-pubsub-2.9.0.tar.gz", hash = "sha256:2b3d9336afab0e5df67201234976519a28da3ccb7c9a0e463be28e2827a9fdaa"},
+    {file = "google_cloud_pubsub-2.9.0-py2.py3-none-any.whl", hash = "sha256:f303a0e8fba3b8d0beccc84d6282ae4864cf40c9cd9431ae7ca4a3191309a10c"},
 ]
 googleapis-common-protos = [
     {file = "googleapis-common-protos-1.53.0.tar.gz", hash = "sha256:a88ee8903aa0a81f6c3cec2d5cf62d3c8aa67c06439b0496b49048fb1854ebf4"},
