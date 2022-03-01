@@ -21,7 +21,7 @@ ipython = "^7.31.1"
 safety = "^1.10.3"
 flake8 = "^4.0.1"
 autoflake = "^1.4"
-grpc-stubs = "^1.24.6"
+grpc-stubs = "^1.24.8"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
