@@ -163,7 +163,7 @@ pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
 name = "google-api-core"
-version = "2.5.0"
+version = "2.7.0"
 description = "Google API client core library"
 category = "main"
 optional = false
@@ -754,7 +754,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "e70e362fdbae351c8c7f786ee71407968fd62a383b2c8bc5edabc5aeeb6a75b0"
+content-hash = "2b0ea26d599adb4cb97635688f001bb64909e15947e4deb8bf5a373d3452701c"
 
 [metadata.files]
 appnope = [
@@ -838,8 +838,8 @@ flake8 = [
     {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
 ]
 google-api-core = [
-    {file = "google-api-core-2.5.0.tar.gz", hash = "sha256:f33863a6709651703b8b18b67093514838c79f2b04d02aa501203079f24b8018"},
-    {file = "google_api_core-2.5.0-py2.py3-none-any.whl", hash = "sha256:7d030edbd3a0e994d796e62716022752684e863a6df9864b6ca82a1616c2a5a6"},
+    {file = "google-api-core-2.7.0.tar.gz", hash = "sha256:53fde60b5589420df2c1b4c98674ecbc217226931b713247586f71f5c0458c38"},
+    {file = "google_api_core-2.7.0-py3-none-any.whl", hash = "sha256:4ef13280a8b00772f9effa92c8f798bd2b7d2637ffe7d5bc8d50356448f1840b"},
 ]
 google-auth = [
     {file = "google-auth-2.6.0.tar.gz", hash = "sha256:ad160fc1ea8f19e331a16a14a79f3d643d813a69534ba9611d2c80dc10439dad"},
