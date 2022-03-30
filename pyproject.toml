@@ -22,10 +22,41 @@ safety = "^1.10.3"
 flake8 = "^4.0.1"
 autoflake = "^1.4"
 grpc-stubs = "^1.24.8"
+pyupgrade = "^2.31.1"
+types-protobuf = "^3.19.15"
+types-requests = "^2.27.15"
+types-setuptools = "^57.4.11"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.isort]
+profile = "black"
 float_to_top = true
+skip_glob = ".venv"
+
+[tool.black]
+line-length = 88
+target-version = ["py38", "py39", "py310"]
+exclude = '''
+/(
+    \.git|.venv
+)/
+'''
+
+[tool.mypy]
+exclude = ".venv/"
+check_untyped_defs = true
+disallow_incomplete_defs = true
+warn_unused_configs = true
+warn_unused_ignores = true
+disallow_subclassing_any = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_return_any = true
+
+[[tool.mypy.overrides]]
+module = "google.auth.credentials"
+ignore_missing_imports = true

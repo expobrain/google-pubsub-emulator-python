@@ -1,4 +1,5 @@
 import grpc
+from google.api_core.client_options import ClientOptions
 from google.auth.credentials import AnonymousCredentials
 from google.pubsub_v1.services.publisher.client import PublisherClient
 from google.pubsub_v1.services.publisher.transports.grpc import PublisherGrpcTransport
@@ -13,10 +14,8 @@ def get_publisher_client(endpoint: str) -> PublisherClient:
     transport = PublisherGrpcTransport(
         channel=grpc_channel, credentials=AnonymousCredentials()
     )
-    publisher = PublisherClient(
-        transport=transport,
-        client_options={"api_endpoint": endpoint},
-    )
+    client_options = ClientOptions(api_endpoint=endpoint)
+    publisher = PublisherClient(transport=transport, client_options=client_options)
 
     return publisher
 
@@ -26,9 +25,7 @@ def get_subscriber_client(endpoint: str) -> SubscriberClient:
     transport = SubscriberGrpcTransport(
         channel=grpc_channel, credentials=AnonymousCredentials()
     )
-    subscriber = SubscriberClient(
-        transport=transport,
-        client_options={"api_endpoint": endpoint},
-    )
+    client_options = ClientOptions(api_endpoint=endpoint)
+    subscriber = SubscriberClient(transport=transport, client_options=client_options)
 
     return subscriber

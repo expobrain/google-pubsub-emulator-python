@@ -1,9 +1,6 @@
 import click
 
-from common import (  # type: ignore
-    PUBSUB_EMULATOR_ENDPOINT_DEFAULT,
-    get_publisher_client,
-)
+from common import PUBSUB_EMULATOR_ENDPOINT_DEFAULT, get_publisher_client
 
 
 @click.command()

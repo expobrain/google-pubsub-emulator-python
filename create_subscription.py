@@ -1,6 +1,6 @@
 import click
 
-from common import (  # type: ignore
+from common import (
     PUBSUB_EMULATOR_ENDPOINT_DEFAULT,
     get_publisher_client,
     get_subscriber_client,
