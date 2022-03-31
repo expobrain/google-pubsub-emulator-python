@@ -7,7 +7,7 @@ authors = ["Daniele Esposti <daniele.esposti@gmail.com>"]
 [tool.poetry.dependencies]
 python = "~3.8"
 click = "~8.0.4"
-google-api-core = "~2.7.0"
+google-api-core = "~2.7.1"
 google-auth = "~2.6.2"
 google-cloud-pubsub = "~2.11"
 grpcio = "~1.44.0"
