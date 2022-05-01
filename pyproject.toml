@@ -13,7 +13,7 @@ google-cloud-pubsub = "~2.11"
 grpcio = "~1.44.0"
 
 [tool.poetry.dev-dependencies]
-mypy = "^0.942"
+mypy = "^0.950"
 isort = "^5.10.1"
 black = "^22.1"
 pdbpp = "^0.10.3"
