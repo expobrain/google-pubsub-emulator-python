@@ -757,7 +757,7 @@ test = ["pytest"]
 
 [[package]]
 name = "types-protobuf"
-version = "3.19.21"
+version = "3.19.22"
 description = "Typing stubs for protobuf"
 category = "dev"
 optional = false
@@ -830,7 +830,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "07c61412d472589ef22fcaf24c40eba4070aefabf9faca960f80622442aa2222"
+content-hash = "3596a638791d51df827eed508315ea4acac002f20665e2e5579c42bd3477b550"
 
 [metadata.files]
 appnope = [
@@ -1273,8 +1273,8 @@ traitlets = [
     {file = "traitlets-5.0.5.tar.gz", hash = "sha256:178f4ce988f69189f7e523337a3e11d91c786ded9360174a3d9ca83e79bc5396"},
 ]
 types-protobuf = [
-    {file = "types-protobuf-3.19.21.tar.gz", hash = "sha256:ecbff0b17b4196aecec055ae4bd25eb344aaf5d848ce38043a44d68a0d51ec3e"},
-    {file = "types_protobuf-3.19.21-py3-none-any.whl", hash = "sha256:6ac25d57f6d674a3f31c9657997aeebdd1196b3ead87e0b798b174243d719856"},
+    {file = "types-protobuf-3.19.22.tar.gz", hash = "sha256:d2b26861b0cb46a3c8669b0df507b7ef72e487da66d61f9f3576aa76ce028a83"},
+    {file = "types_protobuf-3.19.22-py3-none-any.whl", hash = "sha256:d291388678af91bb045fafa864f142dc4ac22f5d4cdca097c7d8d8a32fa9b3ab"},
 ]
 types-requests = [
     {file = "types-requests-2.28.0.tar.gz", hash = "sha256:9863d16dfbb3fa55dcda64fa3b989e76e8859033b26c1e1623e30465cfe294d3"},
