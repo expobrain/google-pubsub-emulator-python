@@ -248,7 +248,7 @@ grpcio = ">=1.0.0,<2.0.0dev"
 
 [[package]]
 name = "grpc-stubs"
-version = "1.24.10"
+version = "1.24.11"
 description = "Mypy stubs for gRPC"
 category = "dev"
 optional = false
@@ -830,7 +830,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "be27b0f126272e101a1bbccea26795e55ae1bcb855b8e69e421acc4ddbaba46c"
+content-hash = "e7283bbd48ebf7109121eb4d3e264f08ef98aaabdd5589f1d9a203e86c83b1be"
 
 [metadata.files]
 appnope = [
@@ -934,8 +934,8 @@ grpc-google-iam-v1 = [
     {file = "grpc_google_iam_v1-0.12.4-py2.py3-none-any.whl", hash = "sha256:312801ae848aeb8408c099ea372b96d253077e7851aae1a9e745df984f81f20c"},
 ]
 grpc-stubs = [
-    {file = "grpc-stubs-1.24.10.tar.gz", hash = "sha256:92460dbabea0e77e34241afe7594b86f5cef2f9ae6ca0230f1ae2430427c20f9"},
-    {file = "grpc_stubs-1.24.10-py3-none-any.whl", hash = "sha256:4e4105e692ceb4101cef2f65b9710f91894bb404e51ed0558e05714b1797295a"},
+    {file = "grpc-stubs-1.24.11.tar.gz", hash = "sha256:b02b0445b264eb3d310a2c14816c440f98f76d4ba2a5746adf148d57cca8b3a5"},
+    {file = "grpc_stubs-1.24.11-py3-none-any.whl", hash = "sha256:56d8f241c4b309c7c712d916be0e0c7b8b72b00cc61c0c08a4b50e1c13fd26e3"},
 ]
 grpcio = [
     {file = "grpcio-1.47.0-cp310-cp310-linux_armv7l.whl", hash = "sha256:544da3458d1d249bb8aed5504adf3e194a931e212017934bf7bfa774dad37fb3"},
