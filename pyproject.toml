@@ -15,7 +15,7 @@ grpcio = "~1.48.0"
 [tool.poetry.dev-dependencies]
 mypy = "^0.971"
 isort = "^5.10.1"
-black = "^22.6"
+black = "^22.8"
 pdbpp = "^0.10.3"
 ipython = "^8.4.0"
 safety = "^2.1.1"
