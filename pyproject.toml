@@ -24,7 +24,7 @@ autoflake = "^1.5"
 grpc-stubs = "^1.24.11"
 pyupgrade = "^2.37.3"
 types-protobuf = "^3.20.1"
-types-requests = "^2.28.6"
+types-requests = "^2.28.9"
 types-setuptools = "^65.3.0"
 
 [build-system]
