@@ -202,7 +202,7 @@ reauth = ["pyu2f (>=0.1.5)"]
 
 [[package]]
 name = "google-cloud-pubsub"
-version = "2.13.4"
+version = "2.13.6"
 description = "Google Cloud Pub/Sub API client library"
 category = "main"
 optional = false
@@ -213,8 +213,8 @@ google-api-core = {version = ">=1.32.0,<2.0.0 || >=2.8.0,<3.0.0dev", extras = ["
 grpc-google-iam-v1 = ">=0.12.4,<1.0.0dev"
 grpcio = ">=1.38.1,<2.0dev"
 grpcio-status = ">=1.16.0"
-proto-plus = ">=1.15.0,<2.0.0dev"
-protobuf = ">=3.19.0,<4.0.0dev"
+proto-plus = ">=1.22.0,<2.0.0dev"
+protobuf = ">=3.19.0,<5.0.0dev"
 
 [package.extras]
 libcst = ["libcst (>=0.3.10)"]
@@ -501,17 +501,17 @@ wcwidth = "*"
 
 [[package]]
 name = "proto-plus"
-version = "1.18.1"
+version = "1.22.1"
 description = "Beautiful, Pythonic protocol buffers."
 category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-protobuf = ">=3.12.0"
+protobuf = ">=3.19.0,<5.0.0dev"
 
 [package.extras]
-testing = ["google-api-core[grpc] (>=1.22.2)"]
+testing = ["google-api-core[grpc] (>=1.31.5)"]
 
 [[package]]
 name = "protobuf"
@@ -922,8 +922,8 @@ google-auth = [
     {file = "google_auth-2.11.0-py2.py3-none-any.whl", hash = "sha256:be62acaae38d0049c21ca90f27a23847245c9f161ff54ede13af2cb6afecbac9"},
 ]
 google-cloud-pubsub = [
-    {file = "google-cloud-pubsub-2.13.4.tar.gz", hash = "sha256:661701ca77ef1dcd27bde64ff73d32d8825fe38bd3cf2f310775d5e6224e2eed"},
-    {file = "google_cloud_pubsub-2.13.4-py2.py3-none-any.whl", hash = "sha256:70e559a935e1e3089af052c4464fbc44668ee9a4f618398079e5183a2448d18e"},
+    {file = "google-cloud-pubsub-2.13.6.tar.gz", hash = "sha256:d64b1baa08632b087422f2f74ac35cc15ad0b4927cd991c90e9feedf9b28ad28"},
+    {file = "google_cloud_pubsub-2.13.6-py2.py3-none-any.whl", hash = "sha256:a2ba319d66c3dc9355f8f46d81a8c78fedb4222a59fc1af6132e522ce7764753"},
 ]
 googleapis-common-protos = [
     {file = "googleapis-common-protos-1.56.2.tar.gz", hash = "sha256:b09b56f5463070c2153753ef123f07d2e49235e89148e9b2459ec8ed2f68d7d3"},
@@ -1079,8 +1079,8 @@ prompt-toolkit = [
     {file = "prompt_toolkit-3.0.18.tar.gz", hash = "sha256:e1b4f11b9336a28fa11810bc623c357420f69dfdb6d2dac41ca2c21a55c033bc"},
 ]
 proto-plus = [
-    {file = "proto-plus-1.18.1.tar.gz", hash = "sha256:cfc45474c7eda0fe3c4b9eca2542124f2a0ff5543242bec61e8d08bce0f5bd48"},
-    {file = "proto_plus-1.18.1-py3-none-any.whl", hash = "sha256:600e2793ec1a0bf2b9e5ba18cd9eccbc1bc690a03c73b571bbe59789fbaaeecc"},
+    {file = "proto-plus-1.22.1.tar.gz", hash = "sha256:6c7dfd122dfef8019ff654746be4f5b1d9c80bba787fe9611b508dd88be3a2fa"},
+    {file = "proto_plus-1.22.1-py3-none-any.whl", hash = "sha256:ea8982669a23c379f74495bc48e3dcb47c822c484ce8ee1d1d7beb339d4e34c5"},
 ]
 protobuf = [
     {file = "protobuf-3.20.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:3cc797c9d15d7689ed507b165cd05913acb992d78b379f6014e013f9ecb20996"},
