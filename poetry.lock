@@ -1151,14 +1151,14 @@ test = ["pre-commit", "pytest"]
 
 [[package]]
 name = "types-protobuf"
-version = "4.21.0.3"
+version = "4.22.0.0"
 description = "Typing stubs for protobuf"
 category = "dev"
 optional = false
 python-versions = "*"
 files = [
-    {file = "types-protobuf-4.21.0.3.tar.gz", hash = "sha256:824109e0fe87525a9d2da4cc4eec36ca004f1a0f3d1c0838cfd2873a484cffdd"},
-    {file = "types_protobuf-4.21.0.3-py3-none-any.whl", hash = "sha256:6c87c7f8df61d57a53de8221777e4fcc3c7ed24419fbf43b8e9f50887f3773fa"},
+    {file = "types-protobuf-4.22.0.0.tar.gz", hash = "sha256:bf2b414d815dc387c0a041d9207db054c7cdb94591bb233d9b71a85243e05efc"},
+    {file = "types_protobuf-4.22.0.0-py3-none-any.whl", hash = "sha256:1e59294618c9518f35f17ae1a3d866cdf7e998eb4b9907d41e9ebe5b84fde636"},
 ]
 
 [[package]]
@@ -1255,4 +1255,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "e7d6eeddb6e898c25b9d17438ba871298e9c988d0f3a025491e5407933baf46c"
+content-hash = "8a6f215b8a5ff7874ca1aaf426691b6a2123ef90cb2ae08316a6bc125f223d0a"
