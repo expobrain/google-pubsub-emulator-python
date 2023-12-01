@@ -10,7 +10,7 @@ click = "~8.1.7"
 google-api-core = "~2.14.0"
 google-auth = "~2.24.0"
 google-cloud-pubsub = "~2.18"
-grpcio = "~1.59.2"
+grpcio = "~1.59.3"
 
 [tool.poetry.dev-dependencies]
 mypy = "^1.5"
