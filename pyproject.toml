@@ -23,7 +23,7 @@ flake8 = "^5.0.4"
 autoflake = "^1.7"
 grpc-stubs = "^1.53.0"
 pyupgrade = "^3.8.0"
-types-protobuf = "^4.24.0"
+types-protobuf = "^5.27.0"
 types-requests = "^2.31.0"
 types-setuptools = "^70.0.0"
 
