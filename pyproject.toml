@@ -1,19 +1,20 @@
 [tool.poetry]
-name = "google-pubsub-emulator-python-async2"
+name = "google-pubsub-emulator-python"
 version = "0.1.0"
 description = ""
 authors = ["Daniele Esposti <daniele.esposti@gmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 click = "~8.1.7"
 google-api-core = "~2.22.0"
 google-auth = "~2.37.0"
 google-cloud-pubsub = "~2.21"
 grpcio = "~1.67.1"
 
-[tool.poetry.dev-dependencies]
-mypy = "^1.11"
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.14"
 isort = "^5.13.2"
 black = "^24.8"
 pdbpp = "^0.10.3"
@@ -38,7 +39,7 @@ skip_glob = ".venv"
 
 [tool.black]
 line-length = 88
-target-version = ["py38", "py39", "py310", "py311"]
+target-version = ["py39", "py310", "py311", "py312", "py313"]
 exclude = '''
 /(
     \.git|.venv
