@@ -26,7 +26,7 @@ grpc-stubs = "^1.53.0"
 pyupgrade = "^3.8.0"
 types-protobuf = "^5.28.3"
 types-requests = "^2.32.0"
-types-setuptools = "^75.6.0"
+types-setuptools = "^75.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
