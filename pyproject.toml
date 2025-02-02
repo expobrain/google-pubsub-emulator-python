@@ -5,7 +5,7 @@ description = ""
 authors = ["Daniele Esposti <daniele.esposti@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 click = "~8.1.7"
 google-api-core = "~2.22.0"
 google-auth = "~2.37.0"
@@ -38,7 +38,7 @@ skip_glob = ".venv"
 
 [tool.black]
 line-length = 88
-target-version = ["py38", "py39", "py310", "py311"]
+target-version = ["py39", "py310", "py311", "py312", "py313"]
 exclude = '''
 /(
     \.git|.venv
