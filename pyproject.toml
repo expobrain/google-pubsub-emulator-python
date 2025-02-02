@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "google-pubsub-emulator-python-async2"
+name = "google-pubsub-emulator-python"
 version = "0.1.0"
 description = ""
 authors = ["Daniele Esposti <daniele.esposti@gmail.com>"]
