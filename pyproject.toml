@@ -7,7 +7,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
-click = "~8.1.7"
+click = "~8.1.8"
 google-api-core = "~2.22.0"
 google-auth = "~2.38.0"
 google-cloud-pubsub = "~2.21"
