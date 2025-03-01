@@ -1750,13 +1750,13 @@ typing-extensions = ">=3.7.4.3"
 
 [[package]]
 name = "types-protobuf"
-version = "5.28.3.20241030"
+version = "5.29.1.20250208"
 description = "Typing stubs for protobuf"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "types-protobuf-5.28.3.20241030.tar.gz", hash = "sha256:f7e6b45845d75393fb41c0b3ce82c46d775f9771fae2097414a1dbfe5b51a988"},
-    {file = "types_protobuf-5.28.3.20241030-py3-none-any.whl", hash = "sha256:f3dae16adf342d4fb5bb3673cabb22549a6252e5dd66fc52d8310b1a39c64ba9"},
+    {file = "types_protobuf-5.29.1.20250208-py3-none-any.whl", hash = "sha256:c5f8bfb4afdc1b5cbca1848f2c8b361a2090add7401f410b22b599ef647bf483"},
+    {file = "types_protobuf-5.29.1.20250208.tar.gz", hash = "sha256:c1acd6a59ab554dbe09b5d1fa7dd701e2fcfb2212937a3af1c03b736060b792a"},
 ]
 
 [[package]]
@@ -1836,4 +1836,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "b48f6ffd1e9b2bf0d34840e71a0f8a0bb10484b25d0ae1d65a979a2be0451977"
+content-hash = "51a2bcf542922d29f7cadb71e436ac0a99ea49591039fd96002db2f07d21a208"
