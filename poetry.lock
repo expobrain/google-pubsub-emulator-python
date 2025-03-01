@@ -394,13 +394,13 @@ pyflakes = ">=2.5.0,<2.6.0"
 
 [[package]]
 name = "google-api-core"
-version = "2.22.0"
+version = "2.24.0"
 description = "Google API client core library"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "google_api_core-2.22.0-py3-none-any.whl", hash = "sha256:a6652b6bd51303902494998626653671703c420f6f4c88cfd3f50ed723e9d021"},
-    {file = "google_api_core-2.22.0.tar.gz", hash = "sha256:26f8d76b96477db42b55fd02a33aae4a42ec8b86b98b94969b7333a2c828bf35"},
+    {file = "google_api_core-2.24.0-py3-none-any.whl", hash = "sha256:10d82ac0fca69c82a25b3efdeefccf6f28e02ebb97925a8cce8edbfe379929d9"},
+    {file = "google_api_core-2.24.0.tar.gz", hash = "sha256:e255640547a597a4da010876d333208ddac417d60add22b6851a0c66a831fcaf"},
 ]
 
 [package.dependencies]
@@ -1836,4 +1836,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "b48f6ffd1e9b2bf0d34840e71a0f8a0bb10484b25d0ae1d65a979a2be0451977"
+content-hash = "139dc56caba37d8c8a0554e566866f4a75a952d72e07d8433e9f77d87374457c"
